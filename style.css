@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: rgb(1, 39, 27);
+}
+
+.site-logo {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.navbar a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-right: 15px;
+}
+
+.site-main {
+    padding: 20px;
+
+}
+
+.welcome {
+    background-color: rgb(1, 39, 27);
+    padding: 40px 20px;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.welcome:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.events {
+    margin-top: 20px;
+    padding: 40px 20px;
+    border-radius: 25px;
+}
+
+.event {
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    border: black 1px solid;
+
+}
+
+.event img{
+    width: 100%;
+
+
+}
+
+.event-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+@media screen and (max-width: 768px ) {
+    .event-grid {
+        grid-template-columns:  1fr 1fr 1fr;
+    } 
+    
+}
+
+@media screen and (max-width: 600px ) {
+    .event-grid {
+        grid-template-columns:  1fr;
+    } 
+    
+}
+
+.events-flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.site-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 0px;
+
+}
