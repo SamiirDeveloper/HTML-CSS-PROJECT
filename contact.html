@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event center - Contact</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="site-header">
         <a href="index.html" class="site-logo">Event Center</a>
@@ -15,7 +17,7 @@
                 <li class="nav-item"><a href="events.html">Events</a></li>
                 <li class="nav-item"><a href="menu.html">Menu</a></li>
                 <li class="nav-item"><a href="location.html">Location</a></li>
-                <li class="nav-item"><a href="about.html">Contact Us</a></li>
+                <li class="nav-item"><a href="contact.html">Contact Us</a></li>
             </ul>
 
         </nav>
@@ -23,7 +25,30 @@
     </header>
 
     <main>
-        main
+        <section class="contact-form"><b>
+
+                <h1 class="about-us-header">Contact Us</h1>
+                <form action="submit" method="post">
+
+                            <div class="form-name-email">
+                                <label for="name">Name:</label><br><br>
+                                <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+                                <label for="email">Email:</label><br><br>
+                                <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+                            </div>
+
+
+                            <label for="message">Anything you want us to know?</label><br><br>
+                            <textarea id="message" name="message" rows="8"></textarea><br><br>
+                            <button type="submit">Send Message</button><br>
+
+
+
+
+
+                </form><br>
+        </section>
 
     </main>
 
@@ -33,6 +58,7 @@
 
     </footer>
 
-    
+
 </body>
+
 </html>

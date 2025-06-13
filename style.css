@@ -123,6 +123,40 @@ body {
 
 }
 
+.contact-form {
+    display: flex;
+    background-color: rgb(1, 39, 27);
+    padding: 40px 20px;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 50%;
+
+    
+}
+.form-name-email {
+    display: block;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 5px;
+    width: 100%;
+    max-width: 400px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
 
 
 @media screen and (max-width: 768px ) {
