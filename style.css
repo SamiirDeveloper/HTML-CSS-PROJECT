@@ -157,6 +157,14 @@ body {
     margin-bottom: 40px;
 }
 
+.contact-form-paragraph {
+    color: aqua;
+}
+
+.contact-form-message {
+    color: aqua;
+}
+
 
 
 @media screen and (max-width: 768px ) {
