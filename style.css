@@ -164,8 +164,42 @@ body {
 .contact-form-message {
     color: aqua;
 }
+.menu-table-header {
+    text-align: center;
+    color: aqua;
+    font-weight: bold;
+}
+
+.menu-table {
+    width: 80%;
+    margin: 40px auto; 
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) ;
 
 
+}
+
+.menu-table th, td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.menu-table thead {
+    background-color: #013f2b;
+    color: white;
+}
+.menu-table tbody tr:nth-child(odd) {
+    background-color: rgb(3, 3, 37);
+}
+.menu-table tbody tr:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+.menu-table-paragraph {
+    text-align: center;
+    font-size: medium;
+}
 
 @media screen and (max-width: 768px ) {
     .events {
