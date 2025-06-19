@@ -6,45 +6,10 @@ body {
   background-color: black;
   color: aliceblue;
 }
-.header-banner {
-  position: relative;
-  height: 300px; 
-  background-image: url(https://cdn.prod.website-files.com/609445b9eb43c95f4a0b0e7b/66ee121fe2764e20a3d872c8_CalendarBG.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-}
 
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 .site-header {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  padding: 20px;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  color: white;
-}
-
-/*.site-header {
   display: flex;
   align-items: center;
   padding: 15px 20px;
@@ -56,7 +21,7 @@ body {
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
-}*/
+}
 
 .navbar a {
   display: flex;
@@ -121,26 +86,60 @@ body {
   border-radius: 25px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .events-page {
   display: flex;
   flex-direction: column;
+  gap: 30px;
   align-items: center;
-  margin-top: 20px;
-  padding: 40px 20px;
-  border-radius: 25px;
+  justify-content: center;
+  padding: 40px 0;
 }
 
 .event-page {
-  max-width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  border: 1px solid red;
+  border-radius: 6px;
   padding: 20px;
-  text-align: center;
-  border-radius: 15px;
-  border: black 1px solid;
+  width: 80%;
+  background-color: #012909;
 }
 
 .event-page img {
-  width: 100%;
+  width: 50vh;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
 }
+
+.event-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.event-details h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.event-details p {
+  font-size: 16px;
+  margin: 5px 0 0;
+}
+
+.event-page:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s ease;
+    border-color: #ffd700;
+}
+
 
 .site-footer {
   position: relative;
