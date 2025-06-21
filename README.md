@@ -58,7 +58,9 @@ This project demonstrates:
 ## ✍️ Author
 
 Samir Mohamud  
-[Linkedin](https://www.linkedin.com/in/samiirdeveloper/)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/SamiirDeveloper)
+[![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SamiirDeveloper)
 
 
 ## 📄 License
