@@ -55,6 +55,8 @@ This project demonstrates:
 
 ---
 
+## ✍️ Author
+
 Samir Mohamud  
 [Linkedin](https://www.linkedin.com/in/samiirdeveloper/)
 
