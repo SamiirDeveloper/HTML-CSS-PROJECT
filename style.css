@@ -12,7 +12,7 @@ body {
   display: none;
 }
 
-/* Hamburger icon */
+
 .hamburger {
   display: none;
   font-size: 2rem;
@@ -94,8 +94,8 @@ body {
 }
 
 .event img {
-  width: 100%;
-  height: auto;
+  width: 80%;
+  height: 80%;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -140,7 +140,8 @@ body {
 
 .events-page {
   padding: 40px 20px;
-  max-width: 1000px;
+  width: 80%;
+  height: 50%;
   margin: 0 auto;
   align-items: center;
   justify-content: center;
@@ -149,8 +150,8 @@ body {
 
 .events-page h1 {
   text-align: center;
-  font-size: 35px;
-  margin-bottom: 30px;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 
 .event-page {
@@ -159,18 +160,18 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
   background-color: #01271b;
   color: white;
-  padding: 20px;
-  margin-bottom: 30px;
-  margin-top: 40px;
-  border: 2px solid transparent;
+  padding: 20px 0;
+  border: 1px solid transparent;
+  font-size: 1.1rem;
+  transform: scale(0.9);
 }
 
 .event-page img {
-  width: 80%;
-  height: 80%;
+  width: 60%;
+  height: auto;
   object-fit: cover;
   border-radius: 8px;
   margin-right: 20px;
@@ -236,7 +237,7 @@ body {
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 40px;
-  max-width: 50%;
+  max-width: 60%;
 }
 .form-name-email {
   display: block;
@@ -285,11 +286,11 @@ body {
 }
 
 .contact-form-paragraph {
-  color: aqua;
+  color: white;
 }
 
 .contact-form-message {
-  color: aqua;
+  color: white;
 }
 .menu-table-header {
   text-align: center;
