@@ -27,41 +27,30 @@
     </header>
 
     <main>
-        <section class="contact-form"><b>
+        <section class="contact-form">
+            <h1 class="about-us-header">Contact Us</h1>
 
-                <h1 class="about-us-header">Contact Us</h1>
-                <form action="submit" method="post">
+            <form name="contact" method="POST" data-netlify="true">
+                <div class="form-name-email">
+                    <label for="name">Name:</label><br><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
 
-                    <div class="form-name-email">
-                        <label for="name">Name:</label><br><br>
-                        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+                    <label for="email">Email:</label><br><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+                </div>
 
-                        <label for="email">Email:</label><br><br>
-                        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
-                    </div>
+                <p class="contact-form-paragraph">How did you hear about us?</p>
+                <label><input type="checkbox" name="referral" value="Google"> Google</label>
+                <label><input type="checkbox" name="referral" value="Samir Developer"> Samir Developer</label>
+                <label><input type="checkbox" name="referral" value="Coding Temple"> Coding Temple</label><br><br>
 
-                    <div>
-                        <p class="contact-form-paragraph">How did you hear about us?</p>
-                        <form>
-                            <label>Google<input type="checkbox" name="Google" value="Google"></label>
-                            <label>Samir Developer<input type="checkbox" name="Samir Developer"
-                                    value="Samir Developer"></label>
-                            <label>Coding Temple<input type="checkbox" name="Coding Temple"
-                                    value="Coding Temple"></label>
-                        </form>
-                    </div> <br>
+                <label class="contact-form-message" for="message">Anything you want us to know?</label><br><br>
+                <textarea id="message" name="message" rows="8"></textarea><br><br>
 
-
-                    <label class="contact-form-message" for="message">Anything you want us to know?</label><br><br>
-                    <textarea id="message" name="message" rows="8"></textarea><br><br>
-                    <button type="submit">Send Message</button><br>
-
-
-
-
-
-                </form><br>
+                <button type="submit">Send Message</button>
+            </form>
         </section>
+
 
     </main>
 
