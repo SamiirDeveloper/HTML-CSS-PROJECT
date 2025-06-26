@@ -19,14 +19,6 @@
 
 ---
 
-## 📸 Preview
-
-<p align="center">
-  <img src="media/website-screenshot.png" alt="Project Screenshot" width="70%" />
-</p>
-
----
-
 
 ## 🌟 Features
 
