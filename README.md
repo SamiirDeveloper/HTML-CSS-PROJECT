@@ -1,18 +1,21 @@
-# ⚽ Club World Cup 2025 at Lumen Field
+<p align="center">
+  <img src="media/website-screenshot.png" alt="Project Screenshot" width="80%" />
+</p>
 
-A responsive, modern web page built using **HTML** and **CSS** to promote a soccer match event. Designed with mobile-first principles and Flexbox for layout responsiveness.
+<h1 align="center">⚽ Club World Cup 2025 at Lumen Field</h1>
+
+<p align="center">
+  A responsive, modern webpage built using <strong>HTML</strong> and <strong>CSS</strong> to promote a soccer match event.<br>
+  Designed with mobile-first principles and Flexbox for layout responsiveness.
+</p>
 
 ---
 
 ## 🔗 Live Demo
 
-👉 [View the Live Project](https://html-css-project-6-2025.netlify.app)
-
----
-
-## 📸 Preview
-
-![Project Screenshot](media/website-screenshot.png)
+<p align="center">
+  👉 <a href="https://html-css-project-6-2025.netlify.app" target="_blank"><strong>View the Live Project</strong></a>
+</p>
 
 ---
 
@@ -28,8 +31,8 @@ A responsive, modern web page built using **HTML** and **CSS** to promote a socc
 
 ## 🛠️ Technologies Used
 
-- HTML5
-- CSS3
+- HTML5  
+- CSS3  
 - Flexbox
 
 ---
@@ -38,7 +41,8 @@ A responsive, modern web page built using **HTML** and **CSS** to promote a socc
 
 1. Clone the repository:
 
-https://github.com/SamiirDeveloper/HTML-CSS-PROJECT 
+```bash
+git clone https://github.com/SamiirDeveloper/HTML-CSS-PROJECT
 
 ---
 
