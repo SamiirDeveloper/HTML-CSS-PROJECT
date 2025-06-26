@@ -4,9 +4,15 @@ A responsive, modern web page built using **HTML** and **CSS** to promote a socc
 
 ---
 
+## 🔗 Live Demo
+
+👉 [View the Live Project](https://html-css-project-6-2025.netlify.app)
+
+---
+
 ## 📸 Preview
 
-![Project Screenshot](media/website screenshot.png) 
+![Project Screenshot](media/website-screenshot.png) 
 
 ---
 
