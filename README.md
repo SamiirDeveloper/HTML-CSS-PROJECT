@@ -6,7 +6,7 @@ A responsive, modern web page built using **HTML** and **CSS** to promote a socc
 
 ## 📸 Preview
 
-![Project Screenshot](screenshot.png) 
+![Project Screenshot](media/website screenshot.png) 
 
 ---
 
