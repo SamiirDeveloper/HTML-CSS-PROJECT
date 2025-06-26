@@ -48,10 +48,10 @@ https://github.com/SamiirDeveloper/HTML-CSS-PROJECT
 
 ## ✅ To-Do / Improvements
 
-- Add animation on scroll
-- Integrate with a ticketing API
+- Add more food and drink options
 - Add team player cards and stats
-- Add countdown timer to match start
+- Add final scores and stats
+
 
 ---
 
