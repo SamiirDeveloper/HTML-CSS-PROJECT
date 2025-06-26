@@ -19,6 +19,15 @@
 
 ---
 
+## 📸 Preview
+
+<p align="center">
+  <img src="media/website-screenshot.png" alt="Project Screenshot" width="70%" />
+</p>
+
+---
+
+
 ## 🌟 Features
 
 - Fully responsive layout using **Flexbox**
@@ -31,8 +40,8 @@
 
 ## 🛠️ Technologies Used
 
-- HTML5  
-- CSS3  
+- HTML5
+- CSS3
 - Flexbox
 
 ---
@@ -41,8 +50,7 @@
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/SamiirDeveloper/HTML-CSS-PROJECT
+https://github.com/SamiirDeveloper/HTML-CSS-PROJECT 
 
 ---
 
