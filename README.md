@@ -67,7 +67,7 @@ This project demonstrates:
 
 ## ✍️ Author
 
-Samir Mohamud  
+Samir Developer  
 
 ## 🔗 Connect with Me
 
